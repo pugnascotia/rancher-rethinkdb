@@ -1,4 +1,4 @@
-FROM rethinkdb:latest
+FROM rethinkdb:2.3
 
 MAINTAINER Rory Hunter <roryhunter2@gmail.com>
 
