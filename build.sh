@@ -12,4 +12,4 @@ fi
 
 sed -i -e "s/FROM rethinkdb:.*/FROM rethinkdb:$RETHINK_VERSION/" Dockerfile
 
-docker build -t roryhunter/rancher-rethinkdb:$RETHINK_VERSION .
+docker build --pull --tag roryhunter/rancher-rethinkdb:$RETHINK_VERSION .
